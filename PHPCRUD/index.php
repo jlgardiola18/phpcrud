@@ -103,7 +103,7 @@
                                     while($row = mysqli_fetch_array($sql)){
                             ?>
                             <tr>
-                                <td><?php echo $count;?></td>
+                                <td><?php echo $row['id'];?></td>
                                 <td><?php echo $row['first_name'];?></td>
                                 <td><?php echo $row['last_name'];?></td>
                                 <td><?php echo $row['contact_number'];?></td>
